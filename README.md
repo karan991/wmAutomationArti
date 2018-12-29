@@ -1,0 +1,2 @@
+# wmAutomationArti
+Automation hybrid framework 
