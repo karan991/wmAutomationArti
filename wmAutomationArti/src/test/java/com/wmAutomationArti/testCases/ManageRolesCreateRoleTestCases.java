@@ -13,7 +13,7 @@ import com.wmAutomationArti.pages.ManageRoleCreateRolePage;
 import com.wmAutomationArti.pages.launchLoginPage;
 
 
-@Listeners({com.wmAutomationArti.util.testNGListener.class,com.wmAutomationArti.util.extentReportListenerRelevantCodes.class})
+//@Listeners({com.wmAutomationArti.util.testNGListener.class,com.wmAutomationArti.util.extentReportListenerRelevantCodes.class})
 public class ManageRolesCreateRoleTestCases extends ManageRoleCreateRolePage {
 
 	HomeDashboardPage HomeDashboardPage;
@@ -48,7 +48,6 @@ public class ManageRolesCreateRoleTestCases extends ManageRoleCreateRolePage {
 		System.out.println(roleName+"--------------"+ slug+"--------------"+description);
 		ManageRoleCreateRolePage.createRoleAndReset(roleName, slug, description);
 		
-
 	}
 	
 	@DataProvider(name="testdata")
