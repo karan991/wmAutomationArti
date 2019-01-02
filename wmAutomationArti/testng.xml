@@ -4,11 +4,6 @@
 
 <suite name="Suite" >
 
-<listeners>
-        <listener class-name="com.wmAutomationArti.util.testNGListener"></listener>
-        <listener class-name="com.wmAutomationArti.util.extentReportListenerRelevantCodes"></listener>
-
-    </listeners>
 
 
   <test name="Test">
