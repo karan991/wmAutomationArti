@@ -5,8 +5,8 @@
 <suite name="Suite" >
 
 <listeners>
-        <listener class-name="com.wmAutomationArti.util.testNGListener.class"></listener>
-        <listener class-name="com.wmAutomationArti.util.extentReportListenerRelevantCodes.class"></listener>
+        <listener class-name="com.wmAutomationArti.util.testNGListener"></listener>
+        <listener class-name="com.wmAutomationArti.util.extentReportListenerRelevantCodes"></listener>
 
     </listeners>
 
