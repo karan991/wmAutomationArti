@@ -8,6 +8,8 @@ import com.wmAutomationArti.pages.HomeDashboardPage;
 import com.wmAutomationArti.pages.WhitelabelManageRolesTab;
 import com.wmAutomationArti.pages.launchLoginPage;
 
+
+
 public class WhitelabelManageRolesTestCases extends WhitelabelManageRolesTab{
 	
 	HomeDashboardPage HomeDashboardPage;

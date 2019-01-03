@@ -4,6 +4,11 @@
 
 <suite name="Suite" >
 
+<listeners>
+        <listener class-name="com.wmAutomationArti.util.testNGListener"></listener>
+        <listener class-name="com.wmAutomationArti.util.extentReportListenerRelevantCodes"></listener>
+
+    </listeners>
 
 
   <test name="Test">
@@ -11,6 +16,7 @@
       <class name="com.wmAutomationArti.testCases.HomeDashboardPageTestCases"/>
       <class name="com.wmAutomationArti.testCases.launchLoginPageTestCases"/>
       <class name="com.wmAutomationArti.testCases.WhitelabelManageRolesTestCases"/>
+      <class name="com.wmAutomationArti.testCases.ManageRolesCreateRoleTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
